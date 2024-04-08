@@ -22,9 +22,9 @@ class CalculatorServiceTests {
     /* 설명. 테스트 코드의 given에 해당 됨 */
     private static Stream<Arguments> provideDTOSource() {
         return Stream.of(
-                Arguments.of(new CalculatorDTO(1, 2)),
-                Arguments.of(new CalculatorDTO(3, 5)),
-                Arguments.of(new CalculatorDTO(10, -2))
+            Arguments.of(new CalculatorDTO(1, 2)),
+            Arguments.of(new CalculatorDTO(3, 5)),
+            Arguments.of(new CalculatorDTO(10, -2))
         );
     }
 
@@ -40,6 +40,5 @@ class CalculatorServiceTests {
         int actual = calculatorService.plus(input);
 
         Assertions.assertEquals(expected, actual);
-
     }
 }
