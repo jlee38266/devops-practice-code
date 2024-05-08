@@ -1,0 +1,10 @@
+commit 9ed77c6019adcd02753c5d11630549977fb9435b
+tree dea8d401ef2742cc124bbae2e87307465c5ed87a
+parent 8bc8b5c370959a66ba094b5e9daaa6c5454e8bc3
+author JaeWon Lee <jlee38266@gmail.com> 2024-04-11 12:14:54 +0900
+committer JaeWon Lee <jlee38266@gmail.com> 2024-04-11 12:14:54 +0900
+
+    gitignore 설정 작업 수정
+
+
+:100644 100644 b96567f58a02fbedb4c2a5e3115e83afab4a2a32 827e3977ff4f89d5930985ecc2f92b6690d222a0 M	.gitignore

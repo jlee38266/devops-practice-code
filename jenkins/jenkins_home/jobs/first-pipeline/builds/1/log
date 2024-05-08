@@ -1,0 +1,131 @@
+Started by user [8mha:////4CJPgsRH8JIu53FjTBEEO6QOaqNodrPh42Z8REfcoBk0AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mjlee38266
+[8mha:////4Pb9WfBaJbB5f72xZVtgbEV75vOwIBG3ADsIfShVl6M4AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4MmBLr56iR7aEVXHsddRBj/v1cB63o0qawKapHSUZuo2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4DKnV7diMqZbTg/JZJAffaVKt1uwaZhQmRdjfYMMorLNAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/first-pipeline
+[8mha:////4MQCA38s1YALp8t6kJMvdvBI7O4PiRMqBb9CJSktqEebAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MkNN8xWNK+vjq7TTQ7DU5AckT1668scoQeaVtVz8Z22AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4Am7UvxQVFfLCRq/ut2RTrauyO6PWIjIutUsq9H4WT/GAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Li2vToKryurvhuDaQemx/u7Y0wVRYNsOdkaGhOKGMIMAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4MkXg41R/2mSDOqEJ90OGEcYeon905ifV9+R8taGhRfPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4MUJaHEtinbdk6ASjIcxwrYSG5aFSzfLya1qLDMCrsuPAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] tool
+Unpacking https://services.gradle.org/distributions/gradle-8.7-bin.zip to /var/jenkins_home/tools/hudson.plugins.gradle.GradleInstallation/gradle on Jenkins
+[8mha:////4DjCtBQP9J//3CKQNlKXThXX7pAK7wPUXotQN4nHwoItAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4G3Ss4QFePxluhHvueUH3CUp50wxU9EzRwx1oEZ8j0eNAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] tool
+[8mha:////4LrooUsQdvbDfbNchGnmlhPlM2vWcAdL5jejv9dPLD+FAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4HfDNiIH/Rb3R6wuoehR6U+hoXuLLr1lm5xitHTuJOkPAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] }
+[8mha:////4BuK06IH+rRjLLLTX5LKvk6/eiCo5WXKhEs9w/cOKumqAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A//czL69AAAA[0m[Pipeline] // stage
+[8mha:////4GUxTK6Miax5AHR8nrdROM23+2QV/9trvb9fCU/WaO66AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvxMyLWcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4JadV4h6Xs7up55/uLKRFSqF4ytPv1oXppCNj/h/ntKIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4IUXpDSzJrFLw8gpBSN8D+xYxvCEgN59lp8NKKfEd1gVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] stage
+[8mha:////4INnqMdwDpOPJN+WOiOyEHWuLTk7fNggXrHWpRfeSaz7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Preparation)
+[8mha:////4GnA6ddEpPpx2UCj7yJNuuJEvQNd7Ryolk3V5dKRff61AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] tool
+[8mha:////4CH6fdNmvDjHcxkJ3m8rHJn7eRAgL3rK0kwBH0evUC1lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4Lh02G7fJmyGtkRb6sOY+OCTvZIBIsRYg3UWcCLcEXr5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wHsqpiJvgAAAA==[0m[Pipeline] tool
+[8mha:////4Lg/C0u0AuQndVH2in1CsFav7JUSWpYkIBMYon5E2jNgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAcw+Qbk/5Kpr/wEv+bWivgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4EwLInMBAku+Pp08C/rRgQcgtXaG6TPMagk6vYb/r486AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIKEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g3S+1MawgAAAA==[0m[Pipeline] withEnv
+[8mha:////4OmYLsFkY+37mYGfE4I5yFscQtdV7qShZpbZwME3IpYbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] {
+[8mha:////4OtQoejDbADpGFMLPLvw+87m0Dx3yS0hu/uJdesgRRp3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] script
+[8mha:////4DSScilAZTAivKksQ6E+roUyYwUrL5v/vTTXltdmr+9EAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4MG3ZyPnKmKo0aHxcBTGY4OJGS/JIs0DTL5BwNWZFKzkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ docker --version
+Docker version 26.0.0, build 2ae903e
+[8mha:////4JUws8sWQHeU6QAjZYn17A46N0kZ/AuYFxsC4Tu3QorMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+[8mha:////4Oev1NVU7vHuwxpmM6xmMmbMwSix6pFbHGmBFA5X25ZsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // script
+[8mha:////4AiVcU8BkUNQt+UgzCFOrwmn9xJCzt6TeZLOzeRhfML0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPkohNa2+AAAA[0m[Pipeline] }
+[8mha:////4HctafG/5YONUFkp0izuZu5FNBwvRxRn8WqJz+I5Z07DAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKz3uQ71B0xnDfi+AAAA[0m[Pipeline] // withEnv
+[8mha:////4Ouiopw5MxfE/uWP+AbCIhwVoEx7Tc/YR+4u0MzLOTChAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDud7m2hw+pn2bCvgAAAA==[0m[Pipeline] }
+[8mha:////4HU8kxGuu1pCXasnhtShZtQ9FXXNV7BzyGhIDr6cm8V2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRSkGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw+dUYWZvgAAAA==[0m[Pipeline] // stage
+[8mha:////4G80ReT8XvVLVagFs17rxiVEZCBdnsfNa6EPI81d9z2nAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g3Y61fzwgAAAA==[0m[Pipeline] stage
+[8mha:////4NBGanXr83LY+YPPCWWjx3ydbfLNPgY2m82AYcGXSh7WAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] { (Source Build)
+[8mha:////4KIusiQPR6BiP7+oumNXDqTRIxJCutAJBoSKub0XCsYiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] tool
+[8mha:////4JHneOGC8IoaDcpKhJML8RJHF/PXh3jnXXQDjG3HDx3OAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHgAfL9vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4OvhcV/9MR1CnYtfWAEQNK64r4xF63PZC7cbhm3bIzv6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0vHWp6vgAAAA==[0m[Pipeline] tool
+[8mha:////4HwdjvJniju9q+qsHOWm4ZvK9+vvc7CYW8Gs0yRf9NLkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFuLHFjvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GROEdQUA8URI9+QwUz94b+4ynHT1d0P5hlx+/CECrZpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCZhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQHeb7jYwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4PQgFNmD5xYn2GGZzeJ7Uacrb8DoHIZmWB4pKV2PuM8QAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] {
+[8mha:////4FkRFLkQuCy7a+GI54PrD87ApSEQtMl+MnslNXR3fdZjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jlee38266/jenkins-boot.git
+ > git init /var/jenkins_home/workspace/first-pipeline # timeout=10
+Fetching upstream changes from https://github.com/jlee38266/jenkins-boot.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/jlee38266/jenkins-boot.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jlee38266/jenkins-boot.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision bae2cfeb47bc97e0548305f34d82693865915d35 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bae2cfeb47bc97e0548305f34d82693865915d35 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b main bae2cfeb47bc97e0548305f34d82693865915d35 # timeout=10
+Commit message: "[test] pipeline 구축 후 테스트"
+First time build. Skipping changelog.
+[8mha:////4Ckhmf9jU7g8Id6giuzNmgbRFKOXo/X6hUk8dhaBXDrHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBmv/W2K+AAAA[0m[Pipeline] sh
++ chmod +x ./gradlew
+[8mha:////4N3zzqINCm8pDy9ydw9zEc0gitA9FWRPM7PzQZjU7dGIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIipHSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BqxpGi2+AAAA[0m[Pipeline] sh
++ ./gradlew clean build
+Starting a Gradle Daemon (subsequent builds will be faster)
+Sending interrupt signal to process
+Aborted by [8mha:////4CJPgsRH8JIu53FjTBEEO6QOaqNodrPh42Z8REfcoBk0AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mjlee38266
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=79276c2e-9ad5-43f4-88a8-29bff3fa3c71, currentDir=/var/jenkins_home/workspace/first-pipeline}
+Attempting to read last messages from the daemon log...
+Daemon pid: 877
+  log file: /root/.gradle/daemon/8.7/daemon-877.out.log
+----- Last  20 lines from daemon log file - daemon-877.out.log -----
+2024-04-12T00:36:37.822+0000 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [d2f4bf8d-6359-44ed-a262-9dda4ebe5b58 port:36273, addresses:[localhost/127.0.0.1]]
+2024-04-12T00:36:37.823+0000 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [d2f4bf8d-6359-44ed-a262-9dda4ebe5b58 port:36273, addresses:[localhost/127.0.0.1]]
+2024-04-12T00:36:37.823+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2024-04-12T00:36:37.824+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2024-04-12T00:36:37.825+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2024-04-12T00:36:37.825+0000 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2024-04-12T00:36:37.825+0000 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2024-04-12T00:36:37.826+0000 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=79276c2e-9ad5-43f4-88a8-29bff3fa3c71, currentDir=/var/jenkins_home/workspace/first-pipeline}. Dispatching build started information...
+2024-04-12T00:36:37.827+0000 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 23: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@7d535c60
+2024-04-12T00:36:37.828+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [PATH, WORKSPACE_TMP, COPY_REFERENCE_FILE_LOG, RUN_DISPLAY_URL, HUDSON_HOME, RUN_CHANGES_DISPLAY_URL, JOB_URL, JAVA_HOME, DOCKERHUB_USERNAME, HUDSON_COOKIE, BUILD_ID, JENKINS_VERSION, JENKINS_NODE_COOKIE, LANG, JOB_NAME, NODE_LABELS, HUDSON_URL, JENKINS_SERVER_COOKIE, WORKSPACE, JENKINS_SLAVE_AGENT_PORT, PWD, RUN_TESTS_DISPLAY_URL, JENKINS_URL, BUILD_TAG, STAGE_NAME, CI, EXECUTOR_NUMBER, HUDSON_SERVER_COOKIE, JENKINS_UC, JOB_BASE_NAME, GITHUB_URL, JENKINS_INCREMENTALS_REPO_MIRROR, JENKINS_HOME, REF, BUILD_NUMBER, NODE_NAME, BUILD_DISPLAY_NAME, BUILD_URL, HOSTNAME, RUN_ARTIFACTS_DISPLAY_URL, JOB_DISPLAY_URL, JENKINS_UC_EXPERIMENTAL, HOME, SHLVL]
+2024-04-12T00:36:37.830+0000 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.CloseInput
+2024-04-12T00:36:37.830+0000 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 21: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@205f58c2
+2024-04-12T00:36:37.832+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2024-04-12T00:36:37.833+0000 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 877). The daemon log file: /root/.gradle/daemon/8.7/daemon-877.out.log
+2024-04-12T00:36:37.835+0000 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 512 MiB]
+2024-04-12T00:36:37.836+0000 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2024-04-12T00:36:37.836+0000 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2024-04-12T00:36:37.838+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2024-04-12T00:36:37.838+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=7443ac7e-eb24-4eea-a811-7859fc8fb7ab,javaHome=/opt/java/openjdk,daemonRegistryDir=/root/.gradle/daemon,pid=877,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country,-Duser.language=en,-Duser.variant]
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+script returned exit code 1
+[8mha:////4GEdbiHvFbA2YprA6djZgDUPa/cYZ9TCtZFdPi/cf061AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN37dbx6+AAAA[0m[Pipeline] }
+[8mha:////4GYQuwnA59Q7GPDvFt7t9AFy7BSaZ7zx3K+iLwgYagEXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgWgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN0af/O++AAAA[0m[Pipeline] // withEnv
+[8mha:////4LAzXlabzZwBUWJRGSvdGGHA4Bvu93XR+O4/bFp8McRHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+rLosbvgAAAA==[0m[Pipeline] }
+[8mha:////4FaBc4DrPLiynWCoarGBBJuO3yJl7zlbla5stL8c+m4xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpSIGEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w/orNqdvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BiD5Cz44RzCOzDpdH0b9iLbdNKe9g+lIYr4cgBlZufeAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSBBFEunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm1227f7zrN6Ixm6KwgAAAA==[0m[Pipeline] stage
+[8mha:////4EOAbgwBaS/OjV1sHIilwk80FMzJXdfmBbKC187/euBMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] { (Container Build)
+Stage "Container Build" skipped due to earlier failure(s)
+[8mha:////4BReeVNfOCjmYaS4KDaYbYSolqBwsODCxl27JQHA2EdkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BguVlU2+AAAA[0m[Pipeline] }
+[8mha:////4BabypyOlDgxARcliaqOxfyKnDP2Ss7tN6b1dA1VTuv9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAQG7Gq74AAAA=[0m[Pipeline] // stage
+[8mha:////4AO/NQDpzWAREFVADAIfU4mgfUd63qgFMKnAJbvWRz6xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDud7m2hw8xVFKNvgAAAA==[0m[Pipeline] }
+[8mha:////4BpPP7Ce+CozFnrnMIC1b74jf1OW0sRSBvwYVhmeMx5RAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJFIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrQ659/QEzNV4JvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4L7tlL91pYVnDKqNMSZ753D1SCUVg3xjPEoxGG872rg8AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJU2DhWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w/PhzpvvQAAAA==[0m[Pipeline] }
+[8mha:////4MD7uZ07B19WoERm7sHYi38MSu+LKcW3YBpJYwDjYqUrAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJU2DhWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg+lrJOxvQAAAA==[0m[Pipeline] // withEnv
+[8mha:////4D3hdtozzQRvHYbo6t7DtIrHVK8SeULvmvGNyb4NmtfZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPg7X0+70AAAA=[0m[Pipeline] }
+[8mha:////4KnPObliMSFmFpZdHTkqBsKsIbg29NW+g4yfZknpEUJDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEBISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A/G3wOe9AAAA[0m[Pipeline] // node
+[8mha:////4DDNZNMboWfqBAPUSe4GwqftM0fReaNELB/MlA5Py+kJAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkCgQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A9eup629AAAA[0m[Pipeline] End of Pipeline
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 7992cbcd-8870-4454-929b-eabbba09e6b0
+Finished: ABORTED

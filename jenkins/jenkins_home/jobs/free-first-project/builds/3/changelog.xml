@@ -1,0 +1,10 @@
+commit 8bc8b5c370959a66ba094b5e9daaa6c5454e8bc3
+tree fcc79cef44cf8d04d37e41ab37c7eb78203a38e4
+parent d38209fcab55516751c7f6b0276875df39ba8116
+author JaeWon Lee <jlee38266@gmail.com> 2024-04-11 12:14:27 +0900
+committer JaeWon Lee <jlee38266@gmail.com> 2024-04-11 12:14:27 +0900
+
+    gitignore libs 만 들어갈 수 있도록 수정
+
+
+:000000 100644 0000000000000000000000000000000000000000 b96567f58a02fbedb4c2a5e3115e83afab4a2a32 A	.gitignore

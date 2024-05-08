@@ -1,0 +1,60 @@
+Started by GitHub push by jlee38266
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/free-first-project
+The recommended git tool is: NONE
+using credential ssh-jenkins-github--key
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/free-first-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jlee38266/jenkins-boot.git # timeout=10
+Fetching upstream changes from https://github.com/jlee38266/jenkins-boot.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_SSH to set credentials 
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- https://github.com/jlee38266/jenkins-boot.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision d38209fcab55516751c7f6b0276875df39ba8116 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d38209fcab55516751c7f6b0276875df39ba8116 # timeout=10
+Commit message: "변화 감지를 위한 push"
+ > git rev-list --no-walk e8f78ba7cc78b00d6ddc40db8054dd161971f957 # timeout=10
+[free-first-project] $ /bin/sh -xe /tmp/jenkins7993132645749352967.sh
++ chmod +x ./gradlew
++ ./gradlew clean build
+Downloading https://services.gradle.org/distributions/gradle-8.7-bin.zip
+............10%.............20%.............30%.............40%............50%.............60%.............70%.............80%.............90%............100%
+
+Welcome to Gradle 8.7!
+
+Here are the highlights of this release:
+ - Compiling and testing with Java 22
+ - Cacheable Groovy script compilation
+ - New methods in lazy collection properties
+
+For more details see https://docs.gradle.org/8.7/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :clean UP-TO-DATE
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :resolveMainClassName
+> Task :bootJar
+> Task :jar
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+> Task :check
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.7/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 53s
+8 actionable tasks: 7 executed, 1 up-to-date
+Finished: SUCCESS

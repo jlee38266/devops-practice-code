@@ -1,0 +1,10 @@
+commit 390e13917e71c63f5c388c0e7f882260fe11f3cd
+tree d79a8cfc5d0922dcf26e6419ac6650ba3c3cce99
+parent bae2cfeb47bc97e0548305f34d82693865915d35
+author JaeWon Lee <jlee38266@gmail.com> 2024-04-12 10:23:07 +0900
+committer JaeWon Lee <jlee38266@gmail.com> 2024-04-12 10:23:07 +0900
+
+    [test] pipieline 테스트
+
+
+:100644 100644 b6d3c246c9cf29f926607bff026c88c3f415dffa 5e62d26cce668d8487fd99f7d854f50f8143b1f7 M	src/test/java/com/ohgiraffers/bootproject/service/CalculatorServiceTests.java

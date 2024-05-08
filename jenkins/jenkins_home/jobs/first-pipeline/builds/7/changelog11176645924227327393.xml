@@ -1,0 +1,10 @@
+commit 0a2eda3167ab4f2fce9fc98df14654b21a9a8c43
+tree 2ad360176918528d38f98b4a2e337d348c689ab9
+parent 6efd57d6835dcc563d1443cb5624d50c2cc9b619
+author JaeWon Lee <jlee38266@gmail.com> 2024-04-12 10:43:01 +0900
+committer JaeWon Lee <jlee38266@gmail.com> 2024-04-12 10:43:01 +0900
+
+    [test] jenkins 실패 시 메일 받기 테스트
+
+
+:100644 100644 811d7fadcc6b63dc63df9717caefb6b456884953 4935adab58040e125091cea2a3a847d884aaea01 M	src/test/java/com/ohgiraffers/bootproject/service/CalculatorServiceTests.java

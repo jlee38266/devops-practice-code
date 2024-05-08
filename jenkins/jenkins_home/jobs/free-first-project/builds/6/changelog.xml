@@ -1,0 +1,10 @@
+commit bae2cfeb47bc97e0548305f34d82693865915d35
+tree e657a40d3a0aa14c0747fdb1362bbb6dc1cfcef9
+parent 6a300121f28880ee170ee7b61ed64af9d1ccec58
+author JaeWon Lee <jlee38266@gmail.com> 2024-04-12 09:30:54 +0900
+committer JaeWon Lee <jlee38266@gmail.com> 2024-04-12 09:30:54 +0900
+
+    [test] pipeline 구축 후 테스트
+
+
+:100644 100644 191be2bd0477ef8b79527e679a03207e9d9688e3 b6d3c246c9cf29f926607bff026c88c3f415dffa M	src/test/java/com/ohgiraffers/bootproject/service/CalculatorServiceTests.java

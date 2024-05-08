@@ -1,0 +1,56 @@
+Started by GitHub push by jlee38266
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/free-first-project
+The recommended git tool is: NONE
+using credential ssh-jenkins-github--key
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/free-first-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jlee38266/jenkins-boot.git # timeout=10
+Fetching upstream changes from https://github.com/jlee38266/jenkins-boot.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_SSH to set credentials 
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- https://github.com/jlee38266/jenkins-boot.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 0a2eda3167ab4f2fce9fc98df14654b21a9a8c43 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0a2eda3167ab4f2fce9fc98df14654b21a9a8c43 # timeout=10
+Commit message: "[test] jenkins 실패 시 메일 받기 테스트"
+ > git rev-list --no-walk 6efd57d6835dcc563d1443cb5624d50c2cc9b619 # timeout=10
+[free-first-project] $ /bin/sh -xe /tmp/jenkins10466140277649121597.sh
++ chmod +x ./gradlew
++ ./gradlew clean build
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :clean
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :resolveMainClassName
+> Task :bootJar
+> Task :jar
+> Task :assemble
+
+> Task :compileTestJava FAILED
+/var/jenkins_home/workspace/free-first-project/src/test/java/com/ohgiraffers/bootproject/service/CalculatorServiceTests.java:29: error: ')' expected
+            Arguments.of(new CalculatorDTO(300000, -265))sldflslfaglwelglawe
+                                                         ^
+/var/jenkins_home/workspace/free-first-project/src/test/java/com/ohgiraffers/bootproject/service/CalculatorServiceTests.java:29: error: ';' expected
+            Arguments.of(new CalculatorDTO(300000, -265))sldflslfaglwelglawe
+                                                                            ^
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 14s
+7 actionable tasks: 7 executed
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

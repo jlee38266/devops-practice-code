@@ -1,0 +1,10 @@
+commit 6efd57d6835dcc563d1443cb5624d50c2cc9b619
+tree 9c05bc2dfb1bfbd183c114c1878b5beed700a62f
+parent e2b2e0674032c264d5f51062f00489adb82c54d6
+author JaeWon Lee <jlee38266@gmail.com> 2024-04-12 10:39:36 +0900
+committer JaeWon Lee <jlee38266@gmail.com> 2024-04-12 10:39:36 +0900
+
+    [test] jenkins fail test
+
+
+:100644 100644 d758a184f4da96ec4a134bb3b288c7eb0c36aa6e 811d7fadcc6b63dc63df9717caefb6b456884953 M	src/test/java/com/ohgiraffers/bootproject/service/CalculatorServiceTests.java

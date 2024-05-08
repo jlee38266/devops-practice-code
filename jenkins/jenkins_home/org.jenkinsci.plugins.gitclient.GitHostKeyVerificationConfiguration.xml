@@ -1,0 +1,11 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.gitclient.GitHostKeyVerificationConfiguration plugin="git-client@4.7.0">
+  <sshHostKeyVerificationStrategy class="org.jenkinsci.plugins.gitclient.verifier.ManuallyProvidedKeyVerificationStrategy">
+    <approvedHostKeys>security:
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy:
+      manuallyProvidedKeyVerificationStrategy:
+        approvedHostKeys: |-
+          github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDVJxUmMyuph5/qMInO7tw6V0Y1iYq3M0mctOQG+9M+3CqciTXfGt/wx6Lka3O9HXo+wpX2dttmvQ2LOf4e3KqSp2wi3rsxH31yyixX2GheEakdEUrRRGfcAkEusgFbZlQEftYYMqgNVArGYk4HreimPD0gUOA2WYglNUFOF3fWG+CyOFEDOjvuU9yLbYuRDjD7QyJeM0Ms7VLUCJPjUUYCJrXkTytgWZi/f/AaR7jE/5r4A06O3m5DNr3L261BcVWv+W1GHjPjruNs3c4KNWqhuQanq65rf07MW5ENUcQ1KNskELY1HS1ryV6ME4o9NFzgjlMsQds9Ko6nlTp5VSanH0cgjIF1Octcs5T/tot34PfnOxgrT3fxmoeoT0m6CpnuPUDEEKjGY38/3LDyqNi2TqbnWk3RTWxLp4KgTC1BpJppucgfFTdaAreAVPIcuhUKT1H+udi4+8dHeNBSVwCtIi+TfIVBm6V1hQcsnbIi/qx7J7apnfaMEoYPHfcAyh8= root@702f8217683d</approvedHostKeys>
+  </sshHostKeyVerificationStrategy>
+</org.jenkinsci.plugins.gitclient.GitHostKeyVerificationConfiguration>

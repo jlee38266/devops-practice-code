@@ -1,0 +1,79 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2188.v26e255fd2984"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2188.v26e255fd2984">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+      <triggers>
+        <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.38.0">
+          <spec></spec>
+        </com.cloudbees.jenkins.GitHubPushTrigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3894.vd0f0248b_a_fc4">
+    <script>pipeline {
+    agent any
+
+    tools {
+        gradle &apos;gradle&apos;
+        jdk &apos;openJDK17&apos;
+    }
+
+    environment {
+        DOCKERHUB_USERNAME = &apos;jlee38266&apos;
+        GITHUB_URL = &apos;https://github.com/jlee38266/jenkins-boot.git&apos;
+    }
+
+    stages {
+        stage(&apos;Preparation&apos;) {
+            steps {
+                script {
+                    sh &apos;docker --version&apos; // Docker가 설치되어 있는지 확인
+                    sh &apos;docker info&apos;      // Docker 서비스가 정상 작동하는지 확인
+                }
+            }
+        }
+        stage(&apos;Source Build&apos;) {
+            steps {
+                // 소스파일 체크아웃
+                git branch: &apos;main&apos;, url: &apos;https://github.com/jlee38266/jenkins-boot.git&apos;
+
+                // 소스 빌드
+                // 755권한 필요 (윈도우에서 Git으로 소스 업로드시 권한은 644)
+                sh &quot;chmod +x ./gradlew&quot;
+                sh &quot;./gradlew clean build&quot;
+            }
+        }
+        stage(&apos;Container Build&apos;) {
+            steps {   
+    
+                // jar 파일 복사
+                sh &quot;cp ./build/libs/*.jar .&quot;
+    
+                // 컨테이너 빌드 및 업로드
+                sh &quot;docker build -t ${DOCKERHUB_USERNAME}/swcamp-pipe:latest .&quot;
+
+                // docker hub로 push
+                withCredentials([usernamePassword(credentialsId: &apos;DOCKERHUB_PASSWORD&apos;, usernameVariable: &apos;DOCKERHUB_USER&apos;, passwordVariable: &apos;DOCKERHUB_PASS&apos;)]) {
+                    sh &quot;echo $DOCKERHUB_PASS | docker login --username $DOCKERHUB_USER --password-stdin&quot;
+                    sh &quot;docker push ${DOCKERHUB_USERNAME}/swcamp-pipe:latest&quot;
+                }
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,27 @@
+Started by GitHub push by jlee38266
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/free-first-project
+The recommended git tool is: NONE
+using credential ssh-jenkins-github--key
+Cloning the remote Git repository
+Cloning repository https://github.com/jlee38266/jenkins-boot.git
+ > git init /var/jenkins_home/workspace/free-first-project # timeout=10
+Fetching upstream changes from https://github.com/jlee38266/jenkins-boot.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+using GIT_SSH to set credentials 
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- https://github.com/jlee38266/jenkins-boot.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/jlee38266/jenkins-boot.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e8f78ba7cc78b00d6ddc40db8054dd161971f957 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e8f78ba7cc78b00d6ddc40db8054dd161971f957 # timeout=10
+Commit message: "push를 위한 소스코드 수정"
+First time build. Skipping changelog.
+[free-first-project] $ /bin/sh -xe /tmp/jenkins4103735944920673522.sh
++ echo hello world!
+hello world!
+Finished: SUCCESS
